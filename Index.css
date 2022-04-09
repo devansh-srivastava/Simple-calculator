@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+body{
+    background-color: rgb(169, 212, 196);
+    font-family: 'KoHo', sans-serif;    
+}
+
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px rgb(78, 77, 77);
+}
+#result{
+    height:  120px;
+
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+}
+
+#output{
+    text-align: right;
+    height:    60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bolder;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.number, .empty{
+    background-color: aliceblue;
+
+}
+.operator:active, .number:active{
+font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+outline: 0;
+
+}
+button:nth-child(4){
+font-size: 20px;
+background-color:#F4C815 ;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color:#F9CAD7 ;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #A57283;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #C1D5DE;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #8ce6bc;
+}
+
